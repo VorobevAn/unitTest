@@ -1,6 +1,7 @@
 package ListOperations;
 
 import org.junit.jupiter.api.Test;
+import seminar1.ListOperations.ListOperations;
 
 import java.util.ArrayList;
 import java.util.Arrays;

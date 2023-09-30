@@ -23,7 +23,7 @@ public class ListOperationsTest {
 
     @Test
     public void findMaxTest() {
-        List<Integer> list1 = new ArrayList<>(Arrays.asList(3, 4, 2));
+        List<Integer> list1 = new ArrayList<>(Arrays.asList(4, 1, 2));
         int results = ListOperations.findMax(list1);
         assertEquals(4, results, "Метод работает с ошибкой!");
     }
@@ -32,7 +32,8 @@ public class ListOperationsTest {
         List<String> words = new ArrayList<>(Arrays.asList("Hello", "World", "my","test"));
         List<String> result = new ArrayList<>(Arrays.asList("Hello", "World", "test"));
         List<String> resultTest = ListOperations.filterStrings(words,4);
-        assertEquals(result,resultTest,"метод отработал правильно");
+        assertEquals(result,resultTest,"метод отработал не правильно");
+        assertNotNull(words,"Список пуст");
     }
 
 }

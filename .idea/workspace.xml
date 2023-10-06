@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56788d97-2c01-49be-b0cd-c9e48f506037" name="Changes" comment="HW seminar 1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Seminar3/MainHWTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Seminar3/tdd/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Seminar3/tdd/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -43,17 +47,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/UnitTests"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/UnitTests/HWUnitTests"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ListOperationsTest.filterStringsTest">
-    <configuration name="ListOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListOperations.ListOperations" />
-      <module name="HWUnitTests" />
-      <option name="VM_PARAMETERS" value="-ea" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="seminar3.tdd" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserTest.authenticate">
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar3.tdd.User" />
+      <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ListOperations.*" />
+          <option name="PATTERN" value="seminar3.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,66 +74,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListOperationsTest.filterStringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ListOperations.*" />
+          <option name="PATTERN" value="Seminar3.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ListOperations" />
-      <option name="MAIN_CLASS_NAME" value="ListOperations.ListOperationsTest" />
-      <option name="METHOD_NAME" value="filterStringsTest" />
+      <option name="PACKAGE_NAME" value="Seminar3.tdd" />
+      <option name="MAIN_CLASS_NAME" value="Seminar3.tdd.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="findByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListOperationsTest.findMaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTest.userLogout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ListOperations.*" />
+          <option name="PATTERN" value="Seminar3.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ListOperations" />
-      <option name="MAIN_CLASS_NAME" value="ListOperations.ListOperationsTest" />
-      <option name="METHOD_NAME" value="findMaxTest" />
+      <option name="PACKAGE_NAME" value="Seminar3.tdd" />
+      <option name="MAIN_CLASS_NAME" value="Seminar3.tdd.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="userLogout" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListOperationsTest.resultSumList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ListOperations.*" />
+          <option name="PATTERN" value="Seminar3.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ListOperations" />
-      <option name="MAIN_CLASS_NAME" value="ListOperations.ListOperationsTest" />
-      <option name="METHOD_NAME" value="resultSumList" />
+      <option name="PACKAGE_NAME" value="Seminar3.tdd" />
+      <option name="MAIN_CLASS_NAME" value="Seminar3.tdd.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.authenticate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seminar3.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Seminar3.tdd" />
+      <option name="MAIN_CLASS_NAME" value="Seminar3.tdd.UserTest" />
+      <option name="METHOD_NAME" value="authenticate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ListOperations" />
-      <item itemvalue="JUnit.ListOperationsTest.filterStringsTest" />
-      <item itemvalue="JUnit.ListOperationsTest.findMaxTest" />
-      <item itemvalue="JUnit.ListOperationsTest.resultSumList" />
+      <item itemvalue="Application.User" />
+      <item itemvalue="JUnit.UserRepositoryTest.findByName" />
+      <item itemvalue="JUnit.UserRepositoryTest.userLogout" />
+      <item itemvalue="JUnit.UserTest" />
+      <item itemvalue="JUnit.UserTest.authenticate" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ListOperationsTest.filterStringsTest" />
-        <item itemvalue="JUnit.ListOperationsTest.findMaxTest" />
-        <item itemvalue="JUnit.ListOperationsTest.resultSumList" />
-        <item itemvalue="Application.ListOperations" />
+        <item itemvalue="JUnit.UserTest.authenticate" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.UserRepositoryTest.userLogout" />
+        <item itemvalue="JUnit.UserRepositoryTest.findByName" />
       </list>
     </recent_temporary>
   </component>

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56788d97-2c01-49be-b0cd-c9e48f506037" name="Changes" comment="HW seminar 1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seminar3/MainHWTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seminar3/tdd/UserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seminar3/tdd/UserTest.java" afterDir="false" />
+    <list default="true" id="56788d97-2c01-49be-b0cd-c9e48f506037" name="Changes" comment="HW seminar 3">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/book/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/book/тестовые заглушки.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,108 +51,115 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/UnitTests/HWUnitTests"
+    "last_opened_file_path": "D:/UnitTests/HWUnitTests",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="seminar4.book" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="seminar4.book" />
       <recent name="seminar3.tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.authenticate">
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminar3.tdd.User" />
+  <component name="RunManager" selected="JUnit.BookServiceTest">
+    <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar3.tdd.*" />
+          <option name="PATTERN" value="seminar4.book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seminar3.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Seminar3.tdd" />
-      <option name="MAIN_CLASS_NAME" value="Seminar3.tdd.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="findByName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.userLogout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seminar3.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Seminar3.tdd" />
-      <option name="MAIN_CLASS_NAME" value="Seminar3.tdd.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="userLogout" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seminar3.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Seminar3.tdd" />
-      <option name="MAIN_CLASS_NAME" value="Seminar3.tdd.UserTest" />
+      <option name="PACKAGE_NAME" value="seminar4.book" />
+      <option name="MAIN_CLASS_NAME" value="seminar4.book.BookServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.authenticate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seminar3.tdd.*" />
+          <option name="PATTERN" value="seminar4.book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Seminar3.tdd" />
-      <option name="MAIN_CLASS_NAME" value="Seminar3.tdd.UserTest" />
-      <option name="METHOD_NAME" value="authenticate" />
+      <option name="PACKAGE_NAME" value="seminar4.book" />
+      <option name="MAIN_CLASS_NAME" value="seminar4.book.BookServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.findAllBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar4.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar4.book" />
+      <option name="MAIN_CLASS_NAME" value="seminar4.book.BookServiceTest" />
+      <option name="METHOD_NAME" value="findAllBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.findBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar4.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar4.book" />
+      <option name="MAIN_CLASS_NAME" value="seminar4.book.BookServiceTest" />
+      <option name="METHOD_NAME" value="findBookById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.myTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar4.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar4.book" />
+      <option name="MAIN_CLASS_NAME" value="seminar4.book.test" />
+      <option name="METHOD_NAME" value="myTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.User" />
-      <item itemvalue="JUnit.UserRepositoryTest.findByName" />
-      <item itemvalue="JUnit.UserRepositoryTest.userLogout" />
-      <item itemvalue="JUnit.UserTest" />
-      <item itemvalue="JUnit.UserTest.authenticate" />
+      <item itemvalue="JUnit.BookServiceTest" />
+      <item itemvalue="JUnit.BookServiceTest1" />
+      <item itemvalue="JUnit.BookServiceTest.findAllBooks" />
+      <item itemvalue="JUnit.BookServiceTest.findBookById" />
+      <item itemvalue="JUnit.test.myTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTest.authenticate" />
-        <item itemvalue="Application.User" />
-        <item itemvalue="JUnit.UserTest" />
-        <item itemvalue="JUnit.UserRepositoryTest.userLogout" />
-        <item itemvalue="JUnit.UserRepositoryTest.findByName" />
+        <item itemvalue="JUnit.BookServiceTest" />
+        <item itemvalue="JUnit.BookServiceTest.findAllBooks" />
+        <item itemvalue="JUnit.test.myTest" />
+        <item itemvalue="JUnit.BookServiceTest.findBookById" />
+        <item itemvalue="JUnit.BookServiceTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +172,14 @@
       <option name="presentableId" value="Default" />
       <updated>1695796295991</updated>
     </task>
+    <task id="LOCAL-00001" summary="HW seminar 3">
+      <created>1696604375239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696604375239</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +195,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW seminar 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW seminar 1" />
+    <MESSAGE value="HW seminar 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW seminar 3" />
   </component>
 </project>

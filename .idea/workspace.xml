@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56788d97-2c01-49be-b0cd-c9e48f506037" name="Changes" comment="HW seminar 3">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/book/BookServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/book/тестовые заглушки.md" afterDir="false" />
+    <list default="true" id="56788d97-2c01-49be-b0cd-c9e48f506037" name="Changes" comment="HW seminar 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/ListProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar6/ListProcessingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -19,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -52,7 +52,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "D:/UnitTests/HWUnitTests",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,22 +63,34 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="seminar6" />
       <recent name="seminar4.book" />
       <recent name="seminar3.tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookServiceTest">
-    <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ListProcessingTest">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar6.servis.main" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar4.book.*" />
+          <option name="PATTERN" value="seminar6.servis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar4.book" />
-      <option name="MAIN_CLASS_NAME" value="seminar4.book.BookServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar6.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar6.main" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,68 +110,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceTest.findAllBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListProcessingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar4.book.*" />
+          <option name="PATTERN" value="seminar6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar4.book" />
-      <option name="MAIN_CLASS_NAME" value="seminar4.book.BookServiceTest" />
-      <option name="METHOD_NAME" value="findAllBooks" />
+      <option name="PACKAGE_NAME" value="seminar6" />
+      <option name="MAIN_CLASS_NAME" value="seminar6.ListProcessingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListProcessingTest.averageValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar6" />
+      <option name="MAIN_CLASS_NAME" value="seminar6.ListProcessingTest" />
+      <option name="METHOD_NAME" value="averageValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceTest.findBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListProcessingTest.comparisonOfAverages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar4.book.*" />
+          <option name="PATTERN" value="seminar6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar4.book" />
-      <option name="MAIN_CLASS_NAME" value="seminar4.book.BookServiceTest" />
-      <option name="METHOD_NAME" value="findBookById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.myTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar4.book.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminar4.book" />
-      <option name="MAIN_CLASS_NAME" value="seminar4.book.test" />
-      <option name="METHOD_NAME" value="myTest" />
+      <option name="PACKAGE_NAME" value="seminar6" />
+      <option name="MAIN_CLASS_NAME" value="seminar6.ListProcessingTest" />
+      <option name="METHOD_NAME" value="comparisonOfAverages" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BookServiceTest" />
-      <item itemvalue="JUnit.BookServiceTest1" />
-      <item itemvalue="JUnit.BookServiceTest.findAllBooks" />
-      <item itemvalue="JUnit.BookServiceTest.findBookById" />
-      <item itemvalue="JUnit.test.myTest" />
+      <item itemvalue="Application.seminar6.main" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="JUnit.ListProcessingTest" />
+      <item itemvalue="JUnit.ListProcessingTest.averageValue" />
+      <item itemvalue="JUnit.ListProcessingTest.comparisonOfAverages" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookServiceTest" />
-        <item itemvalue="JUnit.BookServiceTest.findAllBooks" />
-        <item itemvalue="JUnit.test.myTest" />
-        <item itemvalue="JUnit.BookServiceTest.findBookById" />
-        <item itemvalue="JUnit.BookServiceTest1" />
+        <item itemvalue="JUnit.ListProcessingTest" />
+        <item itemvalue="JUnit.ListProcessingTest.comparisonOfAverages" />
+        <item itemvalue="JUnit.ListProcessingTest.averageValue" />
+        <item itemvalue="Application.seminar6.main" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696604375239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HW seminar 4">
+      <created>1697091661551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697091661551</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HW seminar 5">
+      <created>1697216315509</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697216315509</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +221,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW seminar 1" />
     <MESSAGE value="HW seminar 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW seminar 3" />
+    <MESSAGE value="HW seminar 4" />
+    <MESSAGE value="HW seminar 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW seminar 5" />
   </component>
 </project>
